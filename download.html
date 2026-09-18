@@ -365,7 +365,7 @@
 <!-- 弹窗 -->
 <div class="modal-overlay" id="termsOverlay" style="display: none;">
   <div class="terms-modal">
-    <div class="modal-header">您必须同意以下条款才能使用下载服务</div>
+    <div class="modal-header">您必须同意以下条款才能查看</div>
     <div class="modal-body">
       <h3>一、禁止内容</h3>
       <ol>
@@ -519,7 +519,7 @@
     <div>
       <h3 class="footer-title">联系我们</h3>
       <ul class="footer-links">
-        <a href="mailto:luorenyishishazi@outlook.com">luorenyishishazi@outlook.com</a>
+        <a href="mailto:luorenyishishazi@outlook.com">luorenyishishazi@hotmail.com</a>
         <li>QQ群：339178809</li>
       </ul>
     </div>
@@ -540,7 +540,7 @@
 
   acceptBtn.onclick = () => overlay.style.display = 'none';
   closeBtn.onclick = () => {
-    if (confirm('不同意将无法使用下载功能，确定离开？')) {
+    if (confirm('不同意将无法查看，确定离开？')) {
       window.history.length > 1 ? window.history.back() : window.close();
     }
   };
